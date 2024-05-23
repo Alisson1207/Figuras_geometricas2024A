@@ -35,4 +35,9 @@ public class Ejemplo {
     public void setFechaNacimiento(String fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
+    public void mostrar_datos() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.println("Fecha de nacimiento: " + fechaNacimiento);
+    }
 }
