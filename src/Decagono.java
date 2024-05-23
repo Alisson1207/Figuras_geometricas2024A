@@ -4,7 +4,7 @@ public class Decagono {
 
     public Decagono() {
     }
-|
+
     public Decagono(int medidalado, double apotema) {
         this.medidalado = medidalado;
         this.apotema = apotema;
@@ -31,4 +31,5 @@ public class Decagono {
     public double calcularArea(){
         return(5*medidalado*apotema);
     }
+    //CAMBIO1
 }
